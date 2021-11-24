@@ -1,0 +1,7 @@
+Gripal sin fiebre
+Gripal con fiebre
+Gastro Intestinal
+Nivel severo uno
+Nivel severo dos
+Nivel severo tres
+No es covid
