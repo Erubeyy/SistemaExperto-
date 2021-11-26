@@ -5,20 +5,23 @@ from experta import *
 raiz = Tk()
 raiz.title("Sistema experto- Tipos de covid")
 raiz.config(bg="#f4f7fa")
-raiz.resizable(0,0)
+#raiz.resizable(0,0)
 
 mi0Frame = Frame(raiz)#, width="1200", height="700")
-mi0Frame.grid(row=0, column=0)
+mi0Frame.grid(row=1, column=0)
 mi0Frame.config(bg="#f4f7fa")
 mi3Frame = Frame(raiz)#, width="1200", height="700")
-mi3Frame.grid(row=0, column=1)
+mi3Frame.grid(row=1, column=1)
 mi3Frame.config(bg="#f4f7fa")
 miFrame = Frame(raiz)#, width="1200", height="700")
-miFrame.grid(row=1, column=0)
+miFrame.grid(row=2, column=0)
 miFrame.config(bg="#f4f7fa")
 mi2Frame = Frame(raiz, highlightbackground="black", highlightthickness=0.5)
-mi2Frame.grid(row=1, column=1)
+mi2Frame.grid(row=2, column=1)
 mi2Frame.config(bg="#f4f7fa")
+mi4Frame = Frame(raiz, highlightbackground="black", highlightthickness=0.5)
+mi4Frame.grid(row=0, column=0)
+mi4Frame.config(bg="#f4f7fa")
 
 reinicio = 0
 #-----------------------------------------------INPUTS DE LOS SÍNTOMAS------------------------------------------------------------
@@ -107,7 +110,7 @@ sugerencias = Text(mi2Frame, width=60, height=10)
 sugerencias.grid(row=8, column=0, padx=10, pady=10)
 
 #------HEADER--------
-head1 = Label(mi0Frame, text="\n\nSÍNTOMAS", bg="#F0F8FF", font=('Elephant', 15))
+head1 = Label(mi0Frame, text="\nSÍNTOMAS", bg="#F0F8FF", font=('Elephant', 15))
 head1.grid(row=0, column=0, sticky="n")
 head1_0 = Label(mi3Frame, text="DIAGNÓSTICO", bg="#F0F8FF", font=('Elephant', 15))
 head1_0.grid(row=0, column=0, sticky="n")
@@ -116,7 +119,8 @@ head1.grid(row=1, column=0, sticky="n")
 head2 = Label(mi0Frame, text="  -Introduce un 'si' o un 'no' dependiendo de los síntomas que presentes",
               bg="#F0F8FF", font=('Century Ghotic', 11))
 head2.grid(row=2, column=0, sticky="n" )
-
+head3 = Label(mi4Frame, text="Sistema experto - Tipos de COVID", bg="#F0F8FF", font=('Elephant', 15))
+head3.grid(row=0)
 
 #-----------------------------------------^^^^^^INPUTS DE LOS SÍNTOMAS^^^^^^------------------------------------------------------
 
