@@ -342,7 +342,9 @@ generarTabla = Button(
     text="RESULTADO", 
     command=iniciar_sistema,
     bg="#7fd1ff",
-    font=("Eurostile", 10, font.BOLD)
+    font=("Eurostile", 10, font.BOLD),
+    padx=20,
+    pady=5
 )
 generarTabla.grid(row=13, column=1, padx=10, pady=15)
 
@@ -350,7 +352,9 @@ reiniciar = Button(
     mi2Frame, text="REINICIAR", 
     command=reiniciar,
     bg="#7fd1ff",
-    font=("Eurostile", 10, font.BOLD)
+    font=("Eurostile", 10, font.BOLD),
+    padx=20,
+    pady=5
 )
 reiniciar.grid(row=9, column=0, padx=10, pady=15)
 
@@ -359,7 +363,9 @@ salir = Button(
     command=salir,
     bg="#ea9999",
     font=("Eurostile", 9),
-    border='2p'
+    border='2p',
+    padx=20,
+    pady=3
 )
 salir.grid(row=10, column=0, padx=10, pady=15)
    
