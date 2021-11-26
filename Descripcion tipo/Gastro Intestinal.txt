@@ -1,4 +1,3 @@
 El coronavirus penetra en las celulas intestinales y en las celulas respiratorias utilizando la proteina de la enzima de conversion de angiotensina (ACE2) como receptor. 
 El virus infecta las celulas intestinales despues de que sus proteinas de pico se unen a ACE2. 
 Una vez dentro, el virus utiliza su propia maquinaria para producir copias de proteínas virales y ARN.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
